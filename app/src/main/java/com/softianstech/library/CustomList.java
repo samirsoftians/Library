@@ -45,7 +45,8 @@ public class CustomList extends ArrayAdapter<String> {
 
     private Activity context;
 
-    public CustomList(Activity context, String[] i_ids, String[] i_book_ids, String[] i_book_names, String[] i_book_authers,
+    public CustomList(
+            Activity context, String[] i_ids, String[] i_book_ids, String[] i_book_names, String[] i_book_authers,
                        String[] i_student_names, String[] i_issued_bys, String[] i_student_emails, String[] i_student_phones,
     String[] i_issued_dates, String[] i_sub_dates, String[] i_submitted_dates, String[] i_reward_points, String[] i_fines) {
         super(context, R.layout.first_page, i_ids);

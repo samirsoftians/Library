@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Library</string>
+
+    <string-array name="data">
+
+        <item>---Designation----</item>
+        <item>Student</item>
+        <item>Librarian</item>
+
+    </string-array>
+
 </resources>
